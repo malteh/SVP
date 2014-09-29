@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.synced_folder "./shared", "/vagrant_data"
+  config.vm.synced_folder "./shared", "/home/vagrant/shared"
 
   config.vm.provision "shell", path: "fdr2.sh"
   config.vm.provision "shell", path: "fdr3.sh"
