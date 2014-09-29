@@ -27,6 +27,7 @@ Run FDR2
 
 - Connect to ```vagrant@localhost``` on port ```2222``` with Putty, password is ```vagrant```
 - run ```fdr2```
+- or run ```fdr3```
 
 Stop the VM
 -----------
